@@ -1,0 +1,10 @@
+{% extends 'cms/layouts/main.twig' %}
+{% block pageTitle %}
+    {{ entry.title }}
+{% endblock %}
+{% block body %}
+    {{ entry.layoutBegin }}
+    {{ entry.intro }}
+    {{ entry.body }}
+    {{ entry.layoutEnd }}
+{% endblock %}

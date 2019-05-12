@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+// Set your brand colors
+$lightGrey: #F7F7F7;
+$primaryGrey: #BDBAB0;
+$darkGrey: #333;
+$darkerGrey: #1E1E1E;
+
+// Update Bulma's global variables
+$family-sans-serif: "Noto Serif", serif;
+
+$progress-value-background-color: $primaryGrey;
+// Update some of Bulma's component variables
+$body-background-color: $lightGrey;
+$control-border-width: 2px;
+$radius-rounded: 0;
+$link: $darkGrey;
+$link-hover: $darkGrey;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+// Import local resources
+@import "./site.scss";
